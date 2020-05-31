@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Ofl.Challonge</AssemblyName>
+    <PackageId>Ofl.Challonge</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ofl.Challonge.Abstractions\Ofl.Challonge.Abstractions.csproj" />
+    <ProjectReference Include="..\Ofl.Common.Abstractions\Ofl.Common.Abstractions.csproj" />
+    <ProjectReference Include="..\Ofl.Common.Extensions\Ofl.Common.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.13.0" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.1.3" />
+    <PackageReference Include="Ofl.Collections" Version="3.0.12" />
+    <PackageReference Include="Ofl.Html" Version="3.0.10" />
+    <PackageReference Include="Ofl.Linq" Version="3.1.23" />
+    <PackageReference Include="Ofl.Text.RegularExpressions" Version="2.0.6" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Ofl.Challonge</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ofl.Collections" Version="3.0.12" />
+    <PackageReference Include="Ofl.Linq" Version="3.1.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ofl.Challonge.Abstractions\Ofl.Challonge.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
